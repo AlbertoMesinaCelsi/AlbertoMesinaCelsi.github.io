@@ -1,0 +1,44 @@
+
+body {
+    font-family: "Montserrat", sans-serif;;
+}
+
+#Hero-Section {
+    background-image: url("../img/premium_photo-1683309565422-77818a287060.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 400px;
+}
+
+.bg-fondo-claro{
+    background-color: #f7e548;
+}
+
+.bg-claro {
+    background-color:aliceblue;
+}
+
+.bg-nav {
+    background-color: rgb(77, 71, 63);
+}
+
+footer h2 {
+    font-weight: bold;
+}
+
+.bg-footer {
+    background-color: beige;
+}
+
+.bg-fondo {
+    background-color: rgb(152, 158, 121);
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+
+
