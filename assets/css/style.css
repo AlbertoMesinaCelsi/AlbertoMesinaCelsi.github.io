@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #2e8cf7;
+    --dark-color: #373737;
+}
 
 body {
     font-family: "Montserrat", sans-serif;;
@@ -40,5 +44,27 @@ footer h2 {
     height: 300px;
 }
 
+.colored-btn {
+    padding: 8px 20px;
+    border: 2px solid var(--primary-color);
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-style: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: ease all 0.3;
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    box-shadow: 6px 6px 0 -1px var(--dark-color);
+}
+
+.colored-btn:hover {
+    color: #fff;
+    background: var(--dark-color);
+    border-color: var(--dark-color);
+    box-shadow: 5px 5px 0 -2px var(--primary-color);
+}
 
 
